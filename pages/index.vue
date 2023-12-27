@@ -1,6 +1,6 @@
 <template>
     <div class=" pt-4 px-4 bg- ">
-          <h1 class="text-3xl md:text-5xl lg:text-7xl text-slate-700 font-extrabold text-center mx-4 mb-4 bg-green-">
+          <h1 class="text-3xl md:text-5xl lg:text-7xl text-slate-700 font-extrabold text-center mx-4 mb-4">
             Berapa <span class="text-greenbrand">harga</span>
             jual Online Delivery?
           </h1>
@@ -22,7 +22,7 @@
   
 </template>
 
-<script>
+<script> 
 export default {
 
 }
