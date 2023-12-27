@@ -2,13 +2,13 @@
   <div>
     <nav class="flex justify-between gap-0 md:gap-4 text-center py-4 px-2 md:px-8">
       <div>
-        <nuxt-link to="/">
+        <NuxtLink to="/">
           <img
             class="h-12 md:h-16 "
             src="../assets/images/hhj_logo.svg"
             alt="hitung harga jual logo"
           >
-        </nuxt-link>
+        </NuxtLink>
       </div>
       <div class="flex md:flex-row gap-2 flex-auto justify-center items-center">
         <div class="relative">
@@ -18,10 +18,10 @@
             alt="hitung online food"
           >
           <button
-            class="bg-greenbrand hover:bg-green-700 text-xs md:text-sm text-white drop-shadow-xl rounded-full font-semibold py-2 md:py-3 px-5 md:px-8 mx-3 focus:outline-none focus:shadow-outline"
+            class="bg-green-600 hover:bg-green-700 text-xs md:text-sm text-white drop-shadow-xl rounded-full font-semibold py-2 md:py-3 px-5 md:px-8 mx-3 focus:outline-none focus:shadow-outline"
             type="button"
           >
-            <nuxt-link to="/"> Hitung Online Food</nuxt-link>
+            <NuxtLink to="/"> Hitung Online Food</NuxtLink>
           </button>
         </div>
         <div class="relative">
@@ -34,7 +34,7 @@
             class="bg-fuchsia-500 hover:bg-fuchsia-700 text-xs md:text-sm text-white drop-shadow-xl rounded-full font-semibold py-2 md:py-3 px-5 md:px-8 mx-3 focus:outline-none focus:shadow-outline"
             type="button"
           >
-            <nuxt-link to="/PageProduct"> Hitung Online Shop</nuxt-link>
+            <NuxtLink to="/PageProduct"> Hitung Online Shop</NuxtLink>
           </button>
         </div>
       </div>
@@ -42,41 +42,43 @@
         <a href="https://www.instagram.com/hitung.harga.jual/">
           <img src="../assets/images/instagram.svg" alt="instagram">
         </a>
-        <nuxt-link class="hidden" to="#">
+        <NuxtLink class="hidden" to="#">
           Berita dan Tips
-        </nuxt-link>
-        <nuxt-link  class="hidden" to="#">
+        </NuxtLink>
+        <NuxtLink  class="hidden" to="#">
           FAQ
-        </nuxt-link>
-        <nuxt-link to="/listBlog">
+        </NuxtLink>
+        <NuxtLink to="/blogs">
           blog list
-        </nuxt-link>
-        <nuxt-link  class="hidden md:flex" to="/tentangKami">
+        </NuxtLink>
+        <NuxtLink  class="hidden md:flex" to="/tentangKami">
           Tentang Kami
-        </nuxt-link>
-        <!-- <nuxt-link to="/kebijakanPrivasi">
+        </NuxtLink>
+        <!-- <NuxtLink to="/kebijakanPrivasi">
           Kebijakan Privasi
-        </nuxt-link> -->
+        </NuxtLink> -->
         <div class=" hidden items-center text-gray-500 text-md font-semibold underline underline-offset-4 gap-4">
-          <nuxt-link to="#">
+          <NuxtLink to="#">
             Login
-          </nuxt-link>
-          <nuxt-link to="#">
+          </NuxtLink>
+          <NuxtLink to="#">
             Daftar
-          </nuxt-link>
+          </NuxtLink>
         </div>
       </div>
       <!-- page1
       <NuxtLink to="/page2">
         page2
       </NuxtLink>
-        <nuxt-link :to="{ name: 'page2' }">About</nuxt-link>
-        <nuxt-link :to="'page2'">Contact</nuxt-link> -->
+        <NuxtLink :to="{ name: 'page2' }">About</NuxtLink>
+        <NuxtLink :to="'page2'">Contact</NuxtLink> -->
       <!-- <div class=" px-3 py-1 bg-red-700 text-white font-semibold align-middle self-center ">
           TEST MODE - KALKULASI TIDAK UNTUK DIPAKAI !
         </div> -->
     </nav>
-    <!-- <slot /> -->
+    <div>
+      <slot />
+    </div>
 
   </div>
 

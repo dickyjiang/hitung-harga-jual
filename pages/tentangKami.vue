@@ -1,6 +1,5 @@
 <template>
     <div>
-      <NavBar />
       <div class="my-10 px-10 mx-auto">
   
         <h1 class="text-center">Tentang Kami</h1>
