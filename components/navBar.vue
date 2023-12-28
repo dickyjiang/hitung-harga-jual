@@ -17,7 +17,7 @@
             alt="hitung online food"
           >
           <button
-            class="bg-greenbrand hover:bg-green-700 text-xs md:text-sm text-white drop-shadow-xl rounded-full font-semibold py-2 md:py-3 px-5 md:px-8 mx-3 focus:outline-none focus:shadow-outline"
+            class="bg-green-600 hover:bg-green-700 text-xs md:text-sm text-white drop-shadow-xl rounded-full font-semibold py-2 md:py-3 px-5 md:px-8 mx-3 focus:outline-none focus:shadow-outline"
             type="button"
           >
             <nuxt-link to="/"> Hitung Online Food</nuxt-link>
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="hidden md:flex items-center text-gray-500 text-xs md:text-md font-semibold gap-8">
-        <a href="https://www.instagram.com/hitung.harga.jual/">
+        <a href="#">
           <img src="../assets/images/instagram.svg" alt="instagram">
         </a>
         <nuxt-link class="hidden" to="#">
@@ -47,7 +47,7 @@
         <nuxt-link  class="hidden" to="#">
           FAQ
         </nuxt-link>
-        <nuxt-link to="/listBlog">
+        <nuxt-link to="/blogs">
           blog list
         </nuxt-link>
         <nuxt-link  class="hidden md:flex" to="/tentangKami">
