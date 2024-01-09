@@ -1,16 +1,14 @@
 <template>
+  
   <div>
-    <navBar />
-    <div>
-      <slot />
-    </div>
-
+    inih
   </div>
-
 </template>
 
 <script>
+export default {
 
+}
 </script>
 
 <style>

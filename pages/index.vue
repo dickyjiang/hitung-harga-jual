@@ -1,4 +1,5 @@
 <template>
+
     <div class=" pt-4 px-4 bg- ">
           <h1 class="text-3xl md:text-5xl lg:text-7xl text-slate-700 font-extrabold text-center mx-4 mb-4">
             Berapa <span class="text-greenbrand">harga</span>
@@ -12,8 +13,8 @@
               Menghitung harga jual di platform online delivery seringkali membingungkan dengan perbedaan sistem komisi dari tiap platform ( GoFood, GrabFood, ShopeeFood) Gunakan kalkulator penghitung harga jual dibawah secara gratis.
             </p>
             <div class="relative z-10 text-center mt-12">
-              <a href="#" v-scroll-to="'#hitungElement'"
-                class=" bg-greenbrand  hover:bg-green-700 text-sm text-white drop-shadow-xl rounded-full font-semibold py-4 px-12 mt-8 focus:outline-none focus:shadow-outline"
+              <a href="#"
+                class=" bg-green-600  hover:bg-green-700 text-sm text-white drop-shadow-xl rounded-full font-semibold py-4 px-12 mt-8 focus:outline-none focus:shadow-outline"
               >
                 Hitung Harga Jual </a>
             </div>
